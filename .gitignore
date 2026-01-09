@@ -1,0 +1,151 @@
+# Build outputs
+build/
+bin/
+lib/
+obj/
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-*
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Core dumps
+core
+core.*
+*.stackdump
+
+# Logs
+*.log
+logs/
+
+# Test results
+Testing/
+tests/output/
+*.test
+
+# Coverage
+coverage/
+*.gcda
+*.gcno
+*.gcov
+*.info
+lcov/
+
+# Package files
+*.tar.gz
+*.zip
+*.deb
+*.rpm
+*.dmg
+
+# Documentation generated
+docs/html/
+docs/latex/
+Doxyfile
+Doxyfile.bak
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+
+# SecureUSB key storage (contains sensitive data)
+.secure_usb/
+secure_usb_storage/
+*.key
+*.pem
+*.p12
+
+# Configuration files with secrets
+config.local.*
+.env
+*.env.local
+secrets.*
+
+# OS specific
+Thumbs.db
+desktop.ini
+.Spotlight-V100
+.Trashes
+
+# Compiled Python files (if any Python tools)
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Node modules (if any JS tools)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Backup files
+*.backup
+*.old
+
+# GPG/Signature files
+*.asc
+*.sig
+*.gpg
+
+# Performance profiling
+*.prof
+*.perf
+callgrind.out.*
+
+# Sanitizer output
+*.sanitize
+asan.*
+tsan.*
+lsan.*
+msan.*
+
+# Valgrind
+valgrind-*.xml
+vgcore.*
+
+# Application specific
+data/
+files_to_process/
+uploads/
+*.dat
+*.bin
+
+# Custom secure storage
+.keys/
+vault/
