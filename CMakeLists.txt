@@ -35,7 +35,7 @@ set_target_properties(secure_usb PROPERTIES
 )
 
 # =====================================================
-# crypto_core（原 padd 项目演化而来）
+# crypto_core 动态库
 # =====================================================
 add_library(crypto_core SHARED
     src/crypto/padd_01.cpp
@@ -96,11 +96,11 @@ set_target_properties(init_usb PROPERTIES
 # =====================================================
 # 可选：安装规则
 # =====================================================
-install(TARGETS secure_usb crypto_core
-        LIBRARY DESTINATION lib)
+# install(TARGETS secure_usb crypto_core
+#         LIBRARY DESTINATION lib)
 
-install(TARGETS crypto_httpd init_usb
-        RUNTIME DESTINATION bin)
+# install(TARGETS crypto_httpd init_usb
+#         RUNTIME DESTINATION bin)
 
-install(DIRECTORY include/
-        DESTINATION include)
+# install(DIRECTORY include/
+#         DESTINATION include)

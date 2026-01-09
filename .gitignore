@@ -24,6 +24,7 @@ _deps
 
 # IDE and Editor files
 .vscode/
+.claude/
 .idea/
 *.swp
 *.swo
